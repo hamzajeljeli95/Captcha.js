@@ -1,0 +1,19 @@
+<!doctype html>
+<head>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="captcha.js"></script>
+</head>
+<body>
+<h1>Sample Form</h1>
+<form onsubmit="return checkCaptcha()">
+Name
+<input type="text" required >
+Birthdate
+<input type="date" required >
+Address
+<input type="text" required >
+<div id="captchazone"></div>
+<input type="submit">
+</form>
+</body>
